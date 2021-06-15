@@ -35,7 +35,7 @@ console.log(fruit);
 
 // 8) Using the splice method remove "onion" from the "food" array
 
-food.splice(4,0);
+food.splice(4,1);
 console.log(food);
 
 // 9) Using the splice method remove "kale" & "spinach" from the "food" array and replace it with "brussels sprouts" OUTPUT: food = ["broccoli", "carrots", "brussels sprouts", "apples", "bananas", "grapes", "strawberries"]
