@@ -59,7 +59,7 @@ console.log(["."]);
 // 13) Create a new variable named "lorem" assign it the value of "Lorem" by slicing it from the text variable
 // DO NOT: var lorem = "Lorem"; DO: var lorem = text.slice(?, ?);
 
-var lorem = text.slice(0,5);
+var lorem = text.slice(0,5).split(" ");
 console.log(lorem);
 
 // 14) Create a new variable named "chores1" set it to the string "clean, pay bills, groceries"
@@ -73,5 +73,5 @@ var chores2 = "learn JS, doctors office, pick up kids";
 // NOTE: There are many ways to accomplish step 16, there is no wrong answer if you get the right result EXCEPT for var allChores = ["clean", " pay bills", " groceries", "learn JS", " doctors office", " pick up kids"] is wrong for obvious reasons
 // 16) Create a new variable named "allChores" it should be an array of all the chores form "chores1" and "chores2" OUTPUT: ["clean", " pay bills", " groceries", "learn JS", " doctors office", " pick up kids"] HINT: split and concatenation
 
-var allChores = chores1.concat(chores2);
+var allChores = chores1.concat(chores2).split(" ");
 console.log(allChores);
